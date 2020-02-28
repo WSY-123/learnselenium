@@ -10,7 +10,7 @@ ele = driver.find_element_by_id('kwdselectid')
 #输入内容
 ele.send_keys('python')
 #打开地区选择页面
-ele = driver.find_element_by_id('work_position_input')
+ele = driver.find_element_by_id()
 #点击
 ele.click()
 #清除已选中选项
